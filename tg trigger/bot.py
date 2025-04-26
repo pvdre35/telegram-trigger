@@ -1,7 +1,7 @@
 import telebot
 import os
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')  # Railway'de gizli tutacağız
+BOT_TOKEN = os.getenv('7765395572:AAGVanZqAPaUzcTV5-BcYQsZ2m4sxqjlnXw')  # Railway'de gizli tutacağız
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start'])
